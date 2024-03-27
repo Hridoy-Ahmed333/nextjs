@@ -1,0 +1,20 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: 750;
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit; /* This ensures the links inherit the color from their parent, which is useful if you want them to match the text color of your navigation */
+}
+
+.links a:hover {
+  color: orange; /* Change this to any color you prefer */
+}
+
+.links a.active {
+  color: orangered; /* Change this to the color you want for the active link */
+}

@@ -1,0 +1,74 @@
+/* homePage/home.css */
+
+.homePage-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.nav-style {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text */
+  font-size: 18px; /* Larger font size */
+  padding: 20px; /* Add some padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pageName {
+  font-size: 2rem;
+  font-weight: 750;
+}
+
+/* SearchBar.css */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 25rem;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+/* FlexContainer.css */
+.flex-container {
+  display: flex;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.flex-item {
+  border: 1px solid #ccc; /* Optional: Add a border for visualization */
+  padding: 20px; /* Optional: Add some padding */
+}
+
+.flex-item-80 {
+  flex: 80; /* This container will take up 80% of the available space */
+}
+
+.flex-item-20 {
+  flex: 20; /* This container will take up 20% of the available space */
+}

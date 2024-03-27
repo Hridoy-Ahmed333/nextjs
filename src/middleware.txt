@@ -1,0 +1,13 @@
+ //This is the code for middleware
+ 
+ import { NextResponse } from "next/server";
+
+ export function middleware(request) {
+   if (request.nextUrl.pathname !== "/anime") {
+     return NextResponse.redirect(new URL("/anime", request.url));
+   }
+ }
+ export const config = {
+   matcher: ["/:path", "/movie", "/series"],
+ };
+//Press Ctrl + shift + r to refresh
